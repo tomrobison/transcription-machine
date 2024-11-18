@@ -15,7 +15,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_18_144909) do
     t.string "library_id"
     t.string "guid"
     t.string "title"
-    t.boolean "captions"
+    t.boolean "captions", default: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
